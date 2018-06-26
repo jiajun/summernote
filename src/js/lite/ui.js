@@ -25,7 +25,7 @@ const airEditable = renderer.create([
   '<div class="note-editable" contentEditable="true" role="textbox" aria-multiline="true"/>'
 ].join(''));
 
-const buttonGroup = renderer.create('<div class="note-btn-group">');
+const buttonGroup = renderer.create('<div class="note-btn-group dropup">');
 const button = renderer.create('<button type="button" class="note-btn" role="button" tabindex="-1">', function($node, options) {
   // set button type
   if (options && options.tooltip) {
