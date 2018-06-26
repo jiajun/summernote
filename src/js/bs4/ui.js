@@ -24,7 +24,7 @@ const airEditable = renderer.create([
   '<div class="note-editable" contentEditable="true" role="textbox" aria-multiline="true"/>'
 ].join(''));
 
-const buttonGroup = renderer.create('<div class="note-btn-group btn-group">');
+const buttonGroup = renderer.create('<div class="note-btn-group btn-group dropup">');
 
 const dropdown = renderer.create('<div class="dropdown-menu" role="list">', function($node, options) {
   const markup = $.isArray(options.items) ? options.items.map(function(item) {
