@@ -90,7 +90,7 @@ var airEditable = renderer.create([
     '  <output class="note-status-output" aria-live="polite"/>',
     '<div class="note-editable" contentEditable="true" role="textbox" aria-multiline="true"/>'
 ].join(''));
-var buttonGroup = renderer.create('<div class="note-btn-group btn-group">');
+var buttonGroup = renderer.create('<div class="note-btn-group btn-group dropup">');
 var dropdown = renderer.create('<ul class="dropdown-menu" role="list">', function ($node, options) {
     var markup = $$1.isArray(options.items) ? options.items.map(function (item) {
         var value = (typeof item === 'string') ? item : (item.value || '');
