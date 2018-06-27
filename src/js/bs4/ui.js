@@ -81,7 +81,7 @@ const palette = renderer.create('<div class="note-color-palette"/>', function($n
     $node.find('.note-color-btn').tooltip({
       container: options.container,
       trigger: 'hover',
-      placement: 'bottom'
+      placement: 'top'
     });
   }
 });
@@ -174,7 +174,7 @@ const ui = {
         }).tooltip({
           container: options.container,
           trigger: 'hover',
-          placement: 'bottom'
+          placement: 'top'
         });
       }
     })($node, options);

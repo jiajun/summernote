@@ -141,7 +141,7 @@ var palette = renderer.create('<div class="note-color-palette"/>', function ($no
         $node.find('.note-color-btn').tooltip({
             container: options.container,
             trigger: 'hover',
-            placement: 'bottom'
+            placement: 'top'
         });
     }
 });
@@ -224,7 +224,7 @@ var ui = {
                 }).tooltip({
                     container: options.container,
                     trigger: 'hover',
-                    placement: 'bottom'
+                    placement: 'top'
                 });
             }
         })($node, options);
